@@ -8,8 +8,8 @@ export default function HabitList({ habits, onToggleHabit, onDeleteHabit }) {
         <Habit
           key={habit.id}
           habit={habit}
-          onToggleHabit={onToggleHabit}
-          onDeleteHabit={onDeleteHabit}
+          onToggle={onToggleHabit}
+          onDelete={onDeleteHabit}
         />
       ))}
     </ul>
